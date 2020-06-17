@@ -19,5 +19,9 @@ from gestionCalificaciones import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('consulta/', views.consulta),
-    path('registro/', views.registro),
+    path('busqueda/', views.busqueda),
+    path('ingreso/', views.ingreso),
+    path('nuevo_ingreso/', views.nuevo_ingreso),
+    path('buscar_calificacion_materia/', views.buscar_calificacion_materia),
+    path('buscar_calificacion_alumno/', views.buscar_calificacion_alumno),
 ]
